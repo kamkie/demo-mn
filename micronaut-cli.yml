@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: demo.mn
+---
+testFramework: junit
+sourceLanguage: java
