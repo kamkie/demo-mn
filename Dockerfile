@@ -1,4 +1,4 @@
-FROM oracle/graalvm-ce:latest as graalvm
+FROM oracle/graalvm-ce:19.1.1 as graalvm
 RUN gu install native-image
 WORKDIR /home/app/demo-mn
 COPY build/libs /home/app/demo-mn
